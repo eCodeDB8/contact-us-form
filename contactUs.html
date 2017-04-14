@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+      <head><title>Contact Us</title>
+      </head>
+<form action="mycompany.com" method="POST">
+    <table>
+        <tr>
+<td>First Name: </td><td><input type="text" name="myFirstName"/></td>
+        </tr>
+        <br/>
+        <tr>
+<td>Last Name: </td><td><input type="text" name="myLastName"/></td>
+</tr>
+<br/>
+<tr> 
+<td>  Email: </td><td><input type="text" name="myEmail"/></td>
+</tr>
+<br/>
+<tr>
+<td>Type of License: </td><td><input type="radio" name="licenseType" value="Business" checked/>Business
+<input type="radio" name="licenseType" value="Personal"/>Personal</td></tr>
+<br/>
+<tr>
+<td>Reason: </td><td><select name="reason">
+    <option value="selectReason">1. Select a Reason</option>
+    <option value="softwareSupport">2. Software Support</option>
+    <option value="hardwareSupport">3. Hardware Support</option>
+    <option value="infoRequest">4. Information Request</option></td></tr>
+    <br/>
+<tr>
+<td>Additional Information: </td><td><textarea name="additionalInfo"></textarea></td></tr>
+<br/>
+<tr>
+<td></td><td><input type="checkbox" name="serviceTerms" value="Yes"/>I have read the terms of service.</td></tr>
+<br/>
+<td>
+<td><input type="submit" value="Send Request"/></td>
+    </table>
+</form>
+</html>
